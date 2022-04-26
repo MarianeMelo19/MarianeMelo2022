@@ -22,6 +22,7 @@ body:before {
   -o-transition: .3s all ease;
   transition: .3s all ease;
   z-index: 8;
+  overflow: hidden;
 }
 
 body.offcanvas {
@@ -1151,6 +1152,7 @@ a, a:hover {
 
 .unslate_co--section {
   padding: 3.5rem 0;
+  overflow: hidden;
 }
 
 @media (max-width: 767.98px) {
