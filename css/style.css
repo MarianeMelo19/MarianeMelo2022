@@ -548,7 +548,7 @@ a, a:hover {
 }
 
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a:hover, .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a:hover {
-  color: #D63447;
+  color: #93329E;
 }
 
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a:before, .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a:before {
@@ -556,7 +556,8 @@ a, a:hover {
 }
 
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a.active, .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a.active {
-  color: #D63447;
+  color: #440A67;
+  font-weight: 700;
 }
 
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a.active:before, .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a.active:before {
