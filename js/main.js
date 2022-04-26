@@ -499,7 +499,7 @@ var loadPortfolioSinglePage = function(id, href) {
 
 			pSingleHolder.append(
 				'<div id="portfolio-single-'+id+
-				'" class="portfolio-single-inner"><span class="unslate_co--close-portfolio js-close-portfolio d-flex align-items-center"><span class="close-portfolio-label">Back to Portfolio</span><span class="icon-close2 wrap-icon-close"></span></span>' + getHTMLContent + '</div>'
+				'" class="portfolio-single-inner"><span class="unslate_co--close-portfolio js-close-portfolio d-flex align-items-center"><span class="close-portfolio-label">Voltar ao Portfólio</span><span class="icon-close2 wrap-icon-close"></span></span>' + getHTMLContent + '</div>'
 			);
 
 			setTimeout(function() {
