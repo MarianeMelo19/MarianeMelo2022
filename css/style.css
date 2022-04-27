@@ -820,6 +820,139 @@ a, a:hover {
   color: #000;
 }
 
+.s-clients h1{
+  color: #440A67;
+}
+
+
+/* ===================================================================
+ * # clients
+ *
+ * ------------------------------------------------------------------- */
+
+ .s-clients {
+  padding-top: 16.2rem;
+  padding-bottom: 15rem;
+  position: relative;
+  padding: initial;
+}
+
+.s-clients .grid-overlay {
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+  border-left: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.s-clients .grid-overlay > div,
+.s-clients .grid-overlay::before,
+.s-clients .grid-overlay::after {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.section-header,
+.clients-wrap,
+.clients {
+  z-index: 3;
+}
+
+.clients-wrap {
+  margin-top: 6rem;
+}
+
+.clients {
+  list-style: none;
+  text-align: center;
+  margin-left: 0;
+  font-weight: 700;
+  font-size: 4.5rem;
+  position: relative;
+}
+
+.clients a {
+  color: #93329E;
+}
+
+.clients img {
+  border-radius: 20px;
+}
+
+
+.clients li {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * clients
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width:1000px) {
+  .s-clients {
+    padding-top: 15rem;
+  }
+
+  .clients {
+    font-size: 4.2rem;
+    padding: 0;
+  }
+
+}
+
+@media only screen and (max-width:900px) {
+  .clients {
+    font-size: 4rem;
+  }
+
+}
+
+@media only screen and (max-width:800px) {
+  .clients-wrap {
+    margin-top: 3.6rem;
+  }
+
+  .clients {
+    font-size: 3.4rem;
+  }
+
+}
+
+@media only screen and (max-width:600px) {
+  .s-clients {
+    padding-top: 12rem;
+    padding-bottom: 10.2rem;
+  }
+
+  .clients {
+    font-size: 3rem;
+  }
+
+}
+
+@media only screen and (max-width:500px) {
+  .clients-wrap {
+    margin-top: 1.5rem;
+  }
+
+  .clients {
+    font-size: 2.4rem;
+  }
+
+  .clients li {
+    padding: 0 1rem;
+  }
+
+}
+
+@media only screen and (max-width:400px) {
+  .clients {
+    font-size: 2.1rem;
+  }
+
+  .clients li {
+    padding: 0 .6rem;
+  }
+
+}
+
 @media (max-width: 991.98px) {
   .cover-v1 .subheading {
     font-size: 15px;
@@ -1175,7 +1308,7 @@ a, a:hover {
 }
 
 .heading-h2 {
-  font-size: 32px;
+  font-size: 64px;
   color: #440A67;
   font-weight: 900;
 }
@@ -1219,6 +1352,11 @@ figure.dotted-bg:before {
 @media (max-width: 991.98px) {
   figure.dotted-bg:before {
     right: 0px;
+  }
+  .heading-h2 {
+    font-size: 42px;
+    color: #440A67;
+    font-weight: 900;
   }
 }
 
