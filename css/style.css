@@ -113,15 +113,15 @@ a, a:hover {
 }
 
 .btn.btn-outline-pill.btn-custom-light {
-  color: rgb(238, 26, 206);
-  border: 2px solid rgb(238, 26, 206);
+  color: #93329E;
+  border: 2px solid #440A67;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
 }
 
 .btn.btn-outline-pill.btn-custom-light:hover, .btn.btn-outline-pill.btn-custom-light:active, .btn.btn-outline-pill.btn-custom-light:focus {
-  border-color: rgb(217, 22, 145);
+  border-color: #B4AEE8;
 }
 
 .btn.btn-outline-pill.btn-white {
