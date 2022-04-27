@@ -741,7 +741,7 @@ a, a:hover {
   right: 0;
   bottom: 0;
   content: "";
-  background: rgba(0, 0, 0, 0);
+  background: #440A67;
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 79%, rgba(0, 0, 0, 0.05) 80%, black 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(79%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(0, 0, 0, 0.05)), color-stop(100%, black));
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 79%, rgba(0, 0, 0, 0.05) 80%, black 100%);
@@ -803,6 +803,12 @@ a, a:hover {
   .cover-v1 .blog-heading {
     font-size: 2rem;
   }
+}
+.cover-v1 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  width: 100%;
 }
 
 .cover-v1 .post-meta {
