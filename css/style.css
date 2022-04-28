@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Arimo:400|Raleway:300,400,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap');
+
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #000;
   font-size: 16px;
   line-height: 30px;
@@ -583,6 +585,8 @@ a, a:hover {
   z-index: 1009;
   height: 100vh;
   background: #fff;
+  font-family: 'monsterrat' sans-serif ;
+  font-weight: 600;
   width: 280px;
   overflow: auto;
   padding-top: 30px;
@@ -610,6 +614,12 @@ a, a:hover {
   position: relative;
 }
 
+hr{
+  border: 3px solid #B4AEE8;
+  box-sizing:border-box;
+  width:100%;  
+}
+
 .unslate_co--site-mobile-menu .close-wrap a {
   margin-right: 15px;
 }
@@ -620,7 +630,7 @@ a, a:hover {
 
 .unslate_co--site-mobile-menu .close-wrap a .close-label {
   margin-right: 20px;
-  color: #000;
+  color: #440A67;
 }
 
 .unslate_co--site-mobile-menu .close-wrap a .close-times {
@@ -632,7 +642,7 @@ a, a:hover {
 .unslate_co--site-mobile-menu .close-wrap a .close-times .bar1, .unslate_co--site-mobile-menu .close-wrap a .close-times .bar2 {
   width: 2px;
   height: 20px;
-  background: #000;
+  background: #93329E;
   position: absolute;
 }
 
@@ -661,7 +671,7 @@ a, a:hover {
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  color: #000;
+  color: #440A67;
 }
 
 .unslate_co--site-mobile-menu ul a:hover, .unslate_co--site-mobile-menu ul li a:hover {
@@ -1136,6 +1146,7 @@ a, a:hover {
   display: block;
   overflow: hidden;
   position: relative;
+  border: #440A67;
 }
 
 .portfolio-item .overlay, .blog-item .overlay {
@@ -1189,7 +1200,7 @@ a, a:hover {
 .portfolio-item .portfolio-item-content p, .blog-item .portfolio-item-content p {
   font-size: 12px;
   color: #B4AEE8;
-  font-family: "Arimo", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .portfolio-item:hover .overlay, .blog-item:hover .overlay {
@@ -1507,7 +1518,7 @@ figure.dotted-bg:before {
 .counter-v1 .number-wrap .number {
   font-size: 69px;
   font-weight: 900;
-  font-family: "Arimo", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #440A67;
 }
 
@@ -1520,7 +1531,6 @@ figure.dotted-bg:before {
 
 .counter-v1 .counter-label {
   text-transform: uppercase;
-  letter-spacing: .1rem;
   font-size: 11px;
   font-weight: 900;
 }
@@ -1554,7 +1564,7 @@ figure.dotted-bg:before {
 .testimonial-v1 .testimonial-inner-bg .quote {
   display: block;
   font-size: 80px;
-  font-family: 'Georgia', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .testimonial-v1 .testimonial-author-info {
@@ -1711,7 +1721,7 @@ figure.dotted-bg:before {
 }
 
 .blog-post-entry .post-meta {
-  font-family: "Arimo", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .form-outline-style-v1 .form-group {
@@ -1792,14 +1802,15 @@ figure.dotted-bg:before {
 .contact-info-v1 .contact-info-label {
   font-size: 11px;
   letter-spacing: .1rem;
-  font-weight: 900;
+  font-weight: 800;
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.5);
+  color: #440A67;
 }
 
 .contact-info-v1 .contact-info-val {
-  font-size: 20px;
-  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  color: #B4AEE8;
 }
 
 .portfolio-single-inner .heading-portfolio-single-h2 {
@@ -1927,7 +1938,7 @@ figure.dotted-bg:before {
   text-align: center;
   font-weight: 300;
   color: #93329E;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .unslate_co--footer a {
@@ -1945,7 +1956,7 @@ figure.dotted-bg:before {
 .unslate_co--footer .footer-site-logo a {
   font-size: 30px;
   font-weight: 900;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #440A67;
 }
 
