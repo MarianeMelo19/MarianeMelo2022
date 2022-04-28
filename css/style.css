@@ -867,7 +867,10 @@ hr{
   position: relative;
   padding: initial;
 }
-
+.break-column {
+  flex-basis: 100%;
+  width: 0;
+}
 .s-clients .grid-overlay {
   border-right: 1px solid rgba(255, 255, 255, 0.05);
   border-left: 1px solid rgba(255, 255, 255, 0.05);
