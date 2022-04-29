@@ -1355,8 +1355,8 @@ hr{
 
 .heading-h3 {
   font-size: 26px;
-  font-weight: 900;
-  color: #000;
+  font-weight: 500;
+  color: #B4AEE8;
 }
 
 .lead {
@@ -1513,11 +1513,13 @@ figure.dotted-bg:before {
 }
 
 .isotope-mb-2 {
-  margin-bottom: 30px !important;
+  margin-bottom: 3px !important;
 }
 
 .feature-v1 {
   line-height: 20px;
+  color: #000;
+  font-weight: 600;
   
 }
 
@@ -1526,7 +1528,7 @@ figure.dotted-bg:before {
     text-align: center;
   }
   .feature-v1 img{
-    width: 60%;
+    width: 50%;
   }
 }
 
@@ -1544,8 +1546,8 @@ figure.dotted-bg:before {
 }
 
 .counter-v1 .number-wrap .number {
-  font-size: 69px;
-  font-weight: 900;
+  font-size: 40px;
+  font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   color: #440A67;
 }
