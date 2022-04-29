@@ -1517,12 +1517,16 @@ figure.dotted-bg:before {
 }
 
 .feature-v1 {
-  line-height: 28px;
+  line-height: 20px;
+  
 }
 
 @media (max-width: 767.98px) {
   .feature-v1 {
     text-align: center;
+  }
+  .feature-v1 img{
+    width: 60%;
   }
 }
 
@@ -1936,11 +1940,11 @@ figure.dotted-bg:before {
 
 .detail-v1 .detail-label {
   display: block;
-  font-size: 11px;
-  font-weight: 900;
+  font-size: 15px;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: rgba(0, 0, 0, 0.5);
+  color: #440A67;
 }
 
 .detail-v1 .detail-val {
