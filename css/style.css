@@ -835,12 +835,7 @@ hr{
     font-size: 2rem;
   }
 }
-.cover-v1 {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: repeat;
-  width: 100%;
-}
+
 
 .cover-v1 .post-meta {
   font-size: 18px;
@@ -1529,6 +1524,7 @@ figure.dotted-bg:before {
   height: auto;
   background-size: cover;
   background-repeat: no-repeat;
+  
 }
 
 
