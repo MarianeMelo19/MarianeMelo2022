@@ -1523,12 +1523,33 @@ figure.dotted-bg:before {
   
 }
 
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#myVideo{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -10000;
+	background-size: cover; 
+  opacity: 0.05;
+}
+
+
+
 @media (max-width: 767.98px) {
   .feature-v1 {
     text-align: center;
-  }
-  .feature-v1 img{
-    width: 50%;
   }
 }
 
