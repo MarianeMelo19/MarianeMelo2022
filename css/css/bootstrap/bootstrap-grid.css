@@ -67,8 +67,8 @@ html {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px; }
+  padding-right: 0;
+  padding-left: 0; }
 
 .col {
   -ms-flex-preferred-size: 0;
