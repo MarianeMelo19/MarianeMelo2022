@@ -688,15 +688,15 @@ hr{
 .unslate_co--site-mobile-menu ul a, .unslate_co--site-mobile-menu ul li a {
   position: relative;
   display: block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
+  padding-top: 18px;
+  padding-bottom: 20px;
+  padding-left: 35px;
   padding-right: 20px;
   color: #440A67;
 }
 
 .unslate_co--site-mobile-menu ul a:hover, .unslate_co--site-mobile-menu ul li a:hover {
-  color: #D63447;
+  color: #93329E;
 }
 
 .unslate_co--site-mobile-menu ul > li > ul > li > a {
