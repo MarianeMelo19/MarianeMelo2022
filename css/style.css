@@ -99,14 +99,14 @@ a, a:hover {
 }
 
 .unslate_co--footer {
-  position: fixed !important;
+  position: relative;
   width: 100%;
   background-color: #FFE3FE;
   color: #fff;
   left: 0;
   right: 0;
   bottom: 0px;
-  z-index: 0;
+  z-index: 1;
   height: 400px;
 }
 
@@ -252,7 +252,6 @@ a, a:hover {
   font-size: 14px;
   position: relative;
 }
-
 .unslate_co--site-nav .site-nav-ul > li > a:before, .unslate_co--site-nav .site-nav-ul-none-onepage > li > a:before {
   left: 7px;
   right: 7px;
