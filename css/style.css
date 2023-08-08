@@ -486,12 +486,17 @@ header {
     font-weight: 600; }
 
 .services-img,
-.work-img,
 .gallery {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative; }
+.work-img {
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative; }
+
 
 .progress-head {
   font-size: 22px; }
