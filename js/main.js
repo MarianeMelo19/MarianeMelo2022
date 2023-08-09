@@ -190,4 +190,24 @@
 	});
 
 
+	window.addEventListener('scroll', () => {
+		const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+		
+		if (window.scrollY > 300) {
+			scrollToTopBtn.style.display = 'block';
+		} else {
+			scrollToTopBtn.style.display = 'none';
+		}
+	});
+
+	document.getElementById('scrollToTopBtn').addEventListener('click', () => {
+		window.scrollTo({
+			top: 0,
+			behavior: 'smooth'
+		});
+	});
+
+
+
+
 }());

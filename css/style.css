@@ -1522,3 +1522,54 @@ progress::-webkit-progress-value {
 progress::-moz-progress-bar {
   background-color: #942e9e; /* Cor da barra preenchida (para navegadores baseados em Mozilla, como o Mozilla Firefox) */
 }
+
+
+#scrollToTopBtn {
+  display: none; /* Inicialmente oculto */
+  position: fixed;
+  width: 60px;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #942e9e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Adicione uma sombra para efeito visual */
+}
+
+
+
+/* styles.css */
+#scrollToTopBtn {
+  transition: background-color 0.3s ease; /* Adiciona transição suave para a mudança de cor de fundo */
+  color: #ffffff;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #410366; /* Nova cor de fundo quando o mouse está sobre o botão */
+  color: #ffffff;
+}
+
+.emoji {
+  color: #ffffff; /* Substitua pela cor desejada em formato hexadecimal, RGB, etc. */
+}
+
+/* styles.css */
+@keyframes pulse {
+  0% {
+      transform: scale(1); /* Tamanho normal */
+  }
+  50% {
+      transform: scale(1.1); /* Tamanho aumentado */
+  }
+  100% {
+      transform: scale(1); /* Volta ao tamanho normal */
+  }
+}
+
+#scrollToTopBtn {
+  /* ... Estilos anteriores ... */
+  animation: pulse 2s infinite; /* Aplica a animação pulsar com duração de 2 segundos e repetição infinita */
+}
